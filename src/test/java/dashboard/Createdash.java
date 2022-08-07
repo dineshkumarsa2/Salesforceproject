@@ -36,7 +36,7 @@ public class Createdash {
 
 		driver.switchTo().frame(0);
 		// driver.findElementByXPath("//input[@class= 'slds-input
-		// chromexPathFinder1'][@id= 'dashboardNameInput']").click();
+		// chromexPathFinder1'][@id= 'dashboardNameInput']").click();12
 		WebElement name = driver.findElementById("dashboardNameInput");
 		name.sendKeys("Salesforce Automation by Dineshkumar");
 
